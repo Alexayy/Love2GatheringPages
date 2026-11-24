@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101713">
+  <meta name="description" content="Love: 2 Gathering is an independent Magic: The Gathering desktop client for Windows and Linux. Build a deck and play with friends or XMage bots.">
+  <title>Love: 2 Gathering | Magic on your desktop</title>
+  <link rel="icon" href="assets/mark.png" type="image/png">
+  <link rel="preload" as="image" href="assets/hero.webp">
+  <link rel="stylesheet" href="style.css">
+  <script src="gallery.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead" id="top">
+    <div class="container bar">
+      <a class="brand" href="#top" aria-label="Love: 2 Gathering home"><img src="assets/mark.png" width="35" height="35" alt=""><span>Love<span class="brand-two">2</span>Gathering</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#table">Screenshots</a>
+        <a href="#downloads">Downloads</a>
+        <a class="source-link" href="https://github.com/Alexayy/Love2Gathering">GitHub <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-content">
+        <p class="kicker"><span class="diamond-line" aria-hidden="true"></span> A fan-made Magic client</p>
+        <h1 id="hero-title">Love: <em>2</em><br>Gathering</h1>
+        <p class="intro">Bring your deck to the table. Play Magic: The Gathering with friends or XMage bots on Windows and Linux.</p>
+        <div class="hero-actions">
+          <a class="primary" href="#downloads"><span class="download-icon" aria-hidden="true"></span> Download the game</a>
+          <a class="hero-link" href="#table">See the table <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery container" id="table" aria-labelledby="gallery-title">
+      <div class="gallery-title-row">
+        <div><p class="kicker"><span class="diamond-line" aria-hidden="true"></span> Development screenshots</p>
+        <h2 id="gallery-title">At the table<span class="period">.</span></h2></div>
+        <nav class="gallery-nav" aria-label="Choose a gameplay screenshot">
+          <a href="assets/duel.webp" data-shot="duel" aria-current="true">Duel</a>
+          <a href="assets/commander.webp" data-shot="commander">Commander</a>
+          <a href="assets/inspection.webp" data-shot="inspection">Card preview</a>
+          <a href="assets/mana.webp" data-shot="mana">Mana</a>
+        </nav>
+      </div>
+      <figure>
+        <div class="picture-frame">
+          <a id="full-image" href="assets/duel.webp" aria-label="Open the full-size duel screenshot" target="_blank" rel="noopener">
+            <img id="gameplay-image" src="assets/duel.webp" width="1440" height="900" alt="A duel with opposing creatures in the center, lands behind them and a fanned hand below." decoding="async">
+            <span class="expand" aria-hidden="true">↗</span>
+          </a>
+        </div>
+        <figcaption aria-live="polite"><strong id="shot-title">Duel battlefield</strong><span id="shot-caption">Creatures meet in the middle. Lands sit behind them, with your hand along the lower edge.</span></figcaption>
+      </figure>
+    </section>
+
+    <section class="downloads" id="downloads" aria-labelledby="download-title">
+      <div class="container download-grid">
+        <div><p class="kicker"><span class="diamond-line" aria-hidden="true"></span> Desktop installers</p>
+        <h2 id="download-title">Get the game<span class="period">.</span></h2>
+        <p class="access-note">Downloads are hosted on GitHub. While the game repository is private, sign in with an account that has access.</p>
+        <a class="text-link" href="https://github.com/Alexayy/Love2Gathering/releases">Browse all releases <span aria-hidden="true">↗</span></a></div>
+        <div class="installers" aria-label="Installers for version 2026.11.15.4">
+          <p class="release-label">Release <strong>v2026.11.15.4</strong></p>
+          <a class="installer" href="https://github.com/Alexayy/Love2Gathering/releases/download/v2026.11.15.4/Love2Gathering-2026.11.15.4-windows-x64-setup.exe"><span><strong>Windows</strong><small>x64 setup · .exe</small></span><span class="download-icon" aria-hidden="true"></span></a>
+          <a class="installer" href="https://github.com/Alexayy/Love2Gathering/releases/download/v2026.11.15.4/Love2Gathering-2026.11.15.4-linux-x86_64.run"><span><strong>Linux</strong><small>x86_64 installer · .run</small></span><span class="download-icon" aria-hidden="true"></span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container footer-grid">
+      <a class="brand" href="#top" aria-label="Back to top"><img src="assets/mark.png" width="32" height="32" alt=""><span>Love<span class="brand-two">2</span>Gathering</span></a>
+      <div><p><strong>Vibe coded.</strong> This independent fan project was built with AI-assisted coding. XMage handles the game rules.</p>
+      <p>Love: 2 Gathering is unofficial and unaffiliated with Wizards of the Coast. Magic: The Gathering and its card artwork belong to their respective owners.</p></div>
+    </div>
+  </footer>
+</body>
+</html>
